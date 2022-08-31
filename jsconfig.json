@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": false,
+    "outDir": "lib",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "experimentalDecorators": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}
